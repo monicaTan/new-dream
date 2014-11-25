@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<!--#include file="inc/common.shtml"-->
+<title>无标题文档</title>
+<!--#include file="inc/ie.shtml"-->
+</head>
+
+<body>
+<div class="wrap">
+	<!-- header -->
+	<!--#include file="inc/header.shtml"-->
+	
+	<!-- main-content -->
+	<div class="main-content clearfix">
+		<div class="left-column">
+			<p>
+				<a href="video.shtml">
+					<img src="images/video_03.jpg">
+				</a>
+			</p>
+			<h3><a href="video.shtml">程十庆</a></h3>
+
+			<p>
+				<a href="#">
+					<img src="images/video_12.jpg">
+				</a>
+			</p>
+			<h3><a href="#">PRTA</a></h3>
+
+			<p>
+				<a href="#">
+					<img src="images/video_18.jpg">
+				</a>
+			</p>
+			<h3><a href="#">无标题</a></h3>
+		</div>
+		<div class="center-column">
+			<p>
+				<a href="#">
+					<img src="images/video_05.jpg">
+				</a>
+			</p>
+			<h3><a href="#">加措活佛</a></h3>
+
+			<p>
+				<a href="#">
+					<img src="images/video_13.jpg">
+				</a>
+			</p>
+			<h3><a href="#">徐嘉</a></h3>
+
+			<p>
+				<a href="#">
+					<img src="images/video_19.jpg">
+				</a>
+			</p>
+			<h3><a href="#">无标题</a></h3>
+		</div>
+		<div class="right-column">
+			<p>
+				<a href="#">
+					<img src="images/video_07.jpg">
+				</a>
+			</p>
+			<h3><a href="#">卢森堡</a></h3>
+
+			<p>
+				<a href="#">
+					<img src="images/video_14.jpg">
+				</a>
+			</p>
+			<h3><a href="#">李梦桥</a></h3>
+
+			<p>
+				<a href="#">
+					<img src="images/video_20.jpg">
+				</a>
+			</p>
+			<h3><a href="#">无标题</a></h3>
+		</div>
+	</div>
+</div>
+<script src="js/js-ie/jquery.min.js"></script>
+</body>
+</html>
