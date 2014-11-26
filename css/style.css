@@ -50,7 +50,8 @@
 .film{ margin-bottom:1.25em;}
 .film h3{ font-size: 0.8125em; color: #999999;line-height:1.625em;}
 
-	
+	/* contact-content
+	-------------------------------------------------------------------------------- */
 	.contact-content{ padding-top: 2.625em;}
 	.contact-content h2,
 	.contact-content p{ font-size: 0.8125em; font-family: Arial; line-height: 1.875em; margin: 0;}
@@ -73,6 +74,7 @@
 	.header,
 	.main-content,
 	.footer{width: 98%;}
+	
 	/* main-content
 	-------------------------------------------------------------------------------- */
 	.left-column,
@@ -93,7 +95,7 @@
 	.film,
 	.film video{ width: 80%; height: auto;}
 	.film video{ width: 100%;}
-	
+
 	.film video,
 	.film video source{ height: auto;}
 }
