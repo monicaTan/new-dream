@@ -2,6 +2,8 @@
 <html>
 <head>
 <!--#include file="inc/common.shtml"-->
+
+<link rel="stylesheet" href="css/lightbox.css">
 <title>无标题文档</title>
 <!--#include file="inc/ie.shtml"-->
 </head>
@@ -13,51 +15,22 @@
 	
 	<!-- main-content -->
 
-
 	<div class="main-content clearfix">
-		<div class="left-column">
-			<!-- images -->
-			<div class="lightBox">
-			  <ul class="clearfix">
-			    <!-- _src为大图真实路径  -->
-			    <li><img src='images/1a.jpg' _title='图片展示特效110' _src='images/1a.jpg'></li>
-			    <li><img src='images/2a.jpg' _title='图片展示特效11'  _src='http://www.jq-school.com/upload/20130822225419163/images/2.jpg'></li>
-			    <li><img src='images/3a.jpg' _title='图片展示特效222' _src='images/3a.jpg'></li>
-			    <li><img src='images/1a.jpg' _title='图片展示特效333' _src='images/1a.jpg'></li>
-			    <li><img src='images/2a.jpg' _title='图片展示特效444' _src='images/2a.jpg'></li>
-			  </ul>
+		<div class="image-row">
+			<div class="image-set">
+				<!-- href里是大图的路径:任何比例尺寸； src是小图路径：250*360px  -->
+				<a class="example-image-link" href="images/image-3.jpg" data-lightbox="example-set" data-title="描述文字"><img class="example-image" src="images/1a.jpg" alt=""/></a>
+				<a class="example-image-link" href="images/image-4.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image" src="images/2a.jpg" alt="" /></a>
+				<a class="example-image-link" href="images/image-1.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="images/3a.jpg" alt="" /></a>
+				<a class="example-image-link" href="images/image-3.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="images/2a.jpg" alt="" /></a>
 			</div>
-			<h3><a href="video.shtml">程十庆</a></h3>
-		</div>
-		<div class="center-column">
-			<p>
-				<a href="#">
-					<img src="images/2a.jpg">
-				</a>
-			</p>
-			<h3><a href="#">加措活佛</a></h3>
-		</div>
-		<div class="right-column">
-			<p>
-				<a href="#">
-					<img src="images/3a.jpg">
-				</a>
-			</p>
-			<h3><a href="#">卢森堡</a></h3>
 		</div>
 	</div>
 </div>
-<script src="js/jquery.min.js"></script>
-<script src="js/image.js"></script>
+<script src="js/lightbox.js"></script>
 <script type="text/javascript">
 	$(function(){
-		var BoxW = $('.lightBox').width(),
-			LiNew = $('.lightBox ul li'),
-			LiLen = LiNew.length;
-			LiNew.css({"width":BoxW});
-		var ulWidth = BoxW*LiLen;
-			$('.lightBox ul').css({"width":ulWidth});
-
+		$(".image-set > a:nth-child(3n)").css({"margin-right":0});
 	})
 </script>
 </body>
