@@ -75,22 +75,7 @@
 	.left-column .lightBox,
 	.center-column .lightBox,
 	.right-column .lightBox{ margin-bottom: 0.5em;}
-	.lightBox{margin: 0px auto;width:80.6%;height: auto; overflow: hidden;}
-	.lightBox li{width:100%;height: auto;float: left;overflow: hidden;display: inline;}
-	.lightBox li img{ width: 100%; height: auto;}
-
-	/**弹出层样式***/
-	.mask{height: 100%;width: 100%;filter:alpha(opacity:0);opacity: 0;background: #000;position: absolute;z-index: 1;left: 0;top:0;display: -none;}
-	.popup{background:#fff url(../images/loading.gif) no-repeat center;border:0;position: absolute;z-index: 2;;overflow:-hidden;width: 20.2%;height: auto; border: 10px solid white;}
-	.popup img{height: auto;width: 100%;}
-	.btn{position: absolute;right: 0;top:0;height: 100%;width: 50%;cursor: pointer;}
-	.prev{left: 0;background: url(../images/lightbox-btn-prev.gif) no-repeat  0 50px;}
-	.next{background: url(../images/lightbox-btn-next.gif) no-repeat  right 50px;}
-	.popupBottom{position: relative;z-index: 3;margin-top:0; height: 22px; background: white;}
-	.popupTitle{line-height: 22px;color: #543424;font-family: Arial;font-size: 12px;padding-right: 100px;}
-	.popupClose{margin-right:15px;height: 22px;width: 66px;background: url(../images/lightbox-btn-close.gif) no-repeat;cursor: pointer;z-index: 4;position: absolute;top: 0px;right: 0;}
-
-.image-set > a{ display: block; float: left; width: 310px;margin-right: 30px; margin-bottom: 3em;}
+	.image-set > a{ overflow: hidden; display: block; float: left; width: 250px;margin-right: 90px; margin-bottom: 3em;}
 
 
 
@@ -104,8 +89,8 @@
 	.left-column,
 	.center-column,
 	.right-column,
-	.image-set > a{width: 31.3%;}
-	.image-set > a{margin-right: 3%;}
+	.image-set > a{width: 25.2%;}
+	.image-set > a{margin-right: 12%;}
 	.image-set > a img{width: 100%;}
 
 	.center-column,

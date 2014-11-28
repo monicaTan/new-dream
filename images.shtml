@@ -29,6 +29,8 @@
 <script type="text/javascript">
 	$(function(){
 		$(".image-set > a:nth-child(3n)").css({"margin-right":0});
+		var aW = $(".image-set > a").width();
+		$(".image-set > a").css({"height":aW*1.44});
 	})
 </script>
 </body>
