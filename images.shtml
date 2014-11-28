@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<!--#include file="inc/common.shtml"-->
+<title>无标题文档</title>
+<!--#include file="inc/ie.shtml"-->
+</head>
+
+<body>
+<div class="wrap">
+	<!-- header -->
+	<!--#include file="inc/header.shtml"-->
+	
+	<!-- main-content -->
+
+
+	<div class="main-content clearfix">
+		<div class="left-column">
+			<!-- images -->
+			<div class="lightBox">
+			  <ul class="clearfix">
+			    <!-- _src为大图真实路径  -->
+			    <li><img src='images/1a.jpg' _title='图片展示特效110' _src='images/1a.jpg'></li>
+			    <li><img src='images/2a.jpg' _title='图片展示特效11'  _src='http://www.jq-school.com/upload/20130822225419163/images/2.jpg'></li>
+			    <li><img src='images/3a.jpg' _title='图片展示特效222' _src='images/3a.jpg'></li>
+			    <li><img src='images/1a.jpg' _title='图片展示特效333' _src='images/1a.jpg'></li>
+			    <li><img src='images/2a.jpg' _title='图片展示特效444' _src='images/2a.jpg'></li>
+			  </ul>
+			</div>
+			<h3><a href="video.shtml">程十庆</a></h3>
+		</div>
+		<div class="center-column">
+			<p>
+				<a href="#">
+					<img src="images/2a.jpg">
+				</a>
+			</p>
+			<h3><a href="#">加措活佛</a></h3>
+		</div>
+		<div class="right-column">
+			<p>
+				<a href="#">
+					<img src="images/3a.jpg">
+				</a>
+			</p>
+			<h3><a href="#">卢森堡</a></h3>
+		</div>
+	</div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/image.js"></script>
+<script type="text/javascript">
+	$(function(){
+		var BoxW = $('.lightBox').width(),
+			LiNew = $('.lightBox ul li'),
+			LiLen = LiNew.length;
+			LiNew.css({"width":BoxW});
+		var ulWidth = BoxW*LiLen;
+			$('.lightBox ul').css({"width":ulWidth});
+
+	})
+</script>
+</body>
+</html>
