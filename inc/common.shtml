@@ -7,8 +7,6 @@
 <meta content="telephone=no" name="format-detection">
 
 <script src="js/jquery.min.js"></script>
-<link href="css/video-js.css" rel="stylesheet">  
-<script src="js/video.js"></script>   
 <link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet"> 
 <link href="font-awesome-4.2.0/css/font-awesome-ie7.min.css" rel="stylesheet"> 
 <link href="css/base.css" rel="stylesheet"> 
