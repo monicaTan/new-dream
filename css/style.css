@@ -76,7 +76,7 @@
 	.center-column .lightBox,
 	.right-column .lightBox{ margin-bottom: 0.5em;}
 	.image-set > a{ overflow: hidden; display: block; float: left; width: 250px;margin-right: 90px; margin-bottom: 3em;}
-
+	.image-set > a > img{ max-width: 100%; _width: 100%;}
 
 
 @media screen and (max-width : 990px) {
