@@ -16,10 +16,10 @@
 		<div class="left-column">
 			<p>
 				<a href="video.shtml">
-					<img src="images/video_03.jpg">
+					<img src="images/Athletic_385.jpg">
 				</a>
 			</p>
-			<h3><a href="video.shtml">程十庆</a></h3>
+			<h3><a href="video.shtml">程十庆将恢复速度快接发货速度快季后赛的季后赛的空间的十分</a></h3>
 
 			<p>
 				<a href="#">
@@ -81,6 +81,12 @@
 		</div>
 	</div>
 </div>
-<script src="js/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		var barW = $(".right-column").width();
+		var barWF = Math.floor(barW*0.516)
+		$(".left-column > p,.center-column > p,.right-column > p").css({"height":barWF});
+	})
+</script>
 </body>
 </html>
