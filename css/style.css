@@ -70,7 +70,7 @@
 	.contact-content-fa p a{ color: #999999;}
 	.contact-content-fa p a:hover{ color: #0088cc;}
 	.new-dream-weixin{cursor: pointer;}
-	.new-dream-weixin img{ position: absolute; left: -4px; top: 1.5em; z-index: 2; display: none;}
+	.new-dream-weixin img{ position: absolute; left: -4px; bottom: 1.5em; z-index: 2; display: none;}
 
 	/* info
 	-------------------------------------------------------------------------------- */
@@ -159,7 +159,7 @@
 	.nav-ul li{font-size: 8px;}
 	.header{ padding-top: 2em;}
 	.logo{ width: 17%;}
-	.main-content{ margin-top: 0.5em;}
+	.main-content{ margin-top: 0.5em; margin-bottom: 3em;}
 	.pagination span,
 	.pagination em,
 	.pagination a{font-size: 8px;}
