@@ -28,10 +28,10 @@
 <script src="js/lightbox.js"></script>
 <script type="text/javascript">
 	$(function(){
-		$(".image-set > a:nth-child(3n)").css({"margin-right":0});
-		var aW = $(".image-set > a").width();
+		$(".image-set0 > a:nth-child(3n)").css({"margin-right":0});
+		var aW = $(".image-set0 > a").width();
 		var aWF = Math.floor(aW*1.44);
-		$(".image-set > a").css({"height":aWF+"px"});
+		$(".image-set0 > a").css({"height":aWF+"px"});
 	})
 </script>
 </body>
