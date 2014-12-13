@@ -88,6 +88,8 @@
 	.right-column .lightBox{ margin-bottom: 0.5em;}
 	.image-set a{ overflow: hidden; display: block; float: left; width: 270px;margin-right: 90px; margin-bottom: 3em; background: #f2f2f2; text-align: center;}
 	.image-set a img{ max-width: 100%; _width: 100%;}
+	.image-set0 a{ overflow: hidden; display: block; float: left; width: 270px;margin-right: 90px; margin-bottom: 3em; background: #f2f2f2; text-align: center;}
+	.image-set0 a img{ max-width: 100%; _width: 100%;}
 
 	/* pagination
 	-------------------------------------------------------------------------------- */
@@ -132,6 +134,9 @@
 	.image-set > a{width: 30%;}
 	.image-set > a{margin-right: 5%;}
 	.image-set > a img{max-width: 100%;}
+	.image-set0 > a{width: 30%;}
+	.image-set0 > a{margin-right: 5%;}
+	.image-set0 > a img{max-width: 100%;}
 
 	.center-column,
 	.right-column{margin-left: 3%;}

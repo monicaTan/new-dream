@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<!--#include file="inc/common.shtml"-->
+
+<link rel="stylesheet" href="css/lightbox.css">
+<title>无标题文档</title>
+<!--#include file="inc/ie.shtml"-->
+</head>
+
+<body>
+<div class="wrap">
+	<!-- header -->
+	<!--#include file="inc/header.shtml"-->
+	
+	<!-- main-content -->
+
+	<div class="main-content clearfix">
+		<div class="image-set0">
+			<!-- href里是大图的路径:任何比例尺寸； src是小图路径：250*360px  -->
+			<a class="example-image-link" href="images/Athletic_385.jpg" data-lightbox="example-set" data-title="描述文字"><img class="example-image" src="images/Athletic_385.jpg" alt=""/></a>
+			<a class="example-image-link" href="images/image-4.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image" src="images/2a.jpg" alt="" /></a>
+			<a class="example-image-link" href="images/image-1.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="images/3a.jpg" alt="" /></a>
+			<a class="example-image-link" href="images/image-3.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="images/2a.jpg" alt="" /></a>
+		</div>
+	</div>
+</div>
+<script src="js/lightbox.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$(".image-set > a:nth-child(3n)").css({"margin-right":0});
+		var aW = $(".image-set > a").width();
+		var aWF = Math.floor(aW*1.44);
+		$(".image-set > a").css({"height":aWF+"px"});
+	})
+</script>
+</body>
+</html>
