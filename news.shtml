@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<!--#include file="inc/common.shtml"--> 
+<title>news</title>
+<!--#include file="inc/ie.shtml"-->
+</head>
+
+<body>
+<div class="wrap">
+	<!-- header -->
+	<!--#include file="inc/header.shtml"-->
+	
+	<!-- main-content -->
+	<div class="main-content clearfix">
+		
+	</div>
+</div>
+</body>
+</html>
