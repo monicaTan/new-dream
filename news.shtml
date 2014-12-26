@@ -14,6 +14,7 @@
 	<!-- main-content -->
 	<div class="main-content clearfix">
 		<div class="news-content">
+			<!-- 两种状态：没图的news-list和有图的news-list-img -->
 			<div class="news-list">
 				<h2>
 					<a href="#">新梦想大会圆梦2014 Vegan Society正式落户中国</a>
