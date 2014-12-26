@@ -6,7 +6,7 @@
 			<ul class="nav-ul">
 				<li class="active"><a href="index.shtml">大会视频</a></li>
 				<li><a href="images.shtml">大会图片</a></li>
-				<li><a href="#">视频预告</a></li>
+				<li><a href="news.shtml">最新消息</a></li>
 				<li><a href="info.shtml">信息</a></li>
 				<li><a href="contact.shtml">联系我们</a></li>
 			</ul>
