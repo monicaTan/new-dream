@@ -12,7 +12,7 @@
 	<!--#include file="inc/header.shtml"-->
 	
 	<!-- main-content -->
-	<div class="main-content clearfix">
+	<div class="main-content clearfix contact-col">
 		<div class="left-column">
 			<div class="contact-content contact-content-fa">
 				<h2>联系我们：</h2>
@@ -29,12 +29,11 @@
 			<div class="contact-content">
 				<h2>其它联系方式：</h2>
 				<div class="line"></div>
-				<p>地址：北京市朝阳区人民文化宫</p>
-				<p>电话：010-1234-5678</p>
-				<p>传真：010-1234-5678</p>
+				<p class="dress-txt">地址(Add)：北京市朝阳区人民文化宫<em>Imperial Ancestral Temple, East of Tian An Men, Dong Cheng District, Beijing</em></p>
+				<p>电话(Tel)：010-1234-5678</p>
 			</div>
 		</div>
-		<div class="right-column">
+		<!-- <div class="right-column">
 			<div class="contact-content">
 				<h2>玛格丽特 米德曾说：</h2>
 				<div class="line"></div>
@@ -44,7 +43,7 @@
 				<p>人类的历史从来都是这样！</p>
 			</div>
 		</div>
-	</div>
+	</div> -->
 </div>
 <script type="text/javascript">
 	$(function(){
