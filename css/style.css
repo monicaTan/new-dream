@@ -20,8 +20,8 @@
 /* main-content
 -------------------------------------------------------------------------------- */
 
-.banner .flickerplate ul.flicks li{ background-size: auto 100%; height: 488px;}
-.banner{position: relative; margin-bottom: 6%; font-size: 16px; min-height: 140px;}
+.banner .flickerplate ul.flicks li{ background-size: auto 100%; /*height: 488px;*/ height: 339px;}
+.banner{position: relative; margin-bottom: 48px; font-size: 16px; min-height: 140px;}
 .banner img{ width: 100%;}
 .banner .qr-code img{ max-width: 99px;_width: 99px;}
 .banner .qr-code{ position: absolute; bottom: 20px; left: 50%; margin-left:376px;}
@@ -89,10 +89,11 @@
 	.contact-content .line{ width: 1.875em; height: 1px; line-height: 0; margin-bottom: 0.625em; _font-size: 1px; _width: 30em; _margin-bottom: 10em; background: #999999;}
 	.contact-content p{ color: #999999;word-wrap: break-word; overflow: visible; text-align: left; background: transparent;}
 	.contact-content-fa p{ position: relative; margin-left: 1.8em;}
+	.contact-content-fa span{ position: absolute;right: 20px;}
 	.contact-content-fa p .fa{ font-size: 1.384em; line-height: 1.384em; vertical-align: middle; text-indent: 0; position: absolute; left:-1.277em; top: 0;}
 	.contact-content-fa p a{ color: #999999;}
 	.contact-content-fa p a:hover{ color: #0088cc;}
-	.new-dream-weixin{cursor: pointer;}
+	.new-dream-weixin .fa-weixin{cursor: pointer;}
 	.new-dream-weixin img{ position: absolute; left: -4px; bottom: 1.5em; z-index: 2; display: none;}
 
 	/* info
@@ -214,6 +215,7 @@
 	.footer{width: 98%;}
 	
 	.flickerplate{ min-height: 140px;}
+	.banner{ margin-bottom: 24px; }
 	.banner .flickerplate ul.flicks li{ background-size: auto 100%; height: 100%;}
 	.banner .qr-code{ bottom: 10px; right: 10px; left: auto; margin-left: 0;}
 	/* main-content
@@ -258,10 +260,13 @@
 	.pagination em,
 	.pagination a{font-size: 8px;}
 	.map-model{ height:280px;}
-	.banner{font-size: 8px;}
+	.banner{font-size: 8px; min-height: 100px;}
+	.flickerplate{ min-height: 100px;}
+	.banner{ margin-bottom: 14px; }
 	.banner .qr-code img{ width: 70px;}
 	.banner .qr-code{ bottom: 5px; right: 5px;}
 	
+	.contact-content-fa span{ position: absolute;right: 0;}
 	
 	.news-content {font-family: 'Microsoft YaHei';font-size: 8px;}
 	.news-content .news-list .news-info span,

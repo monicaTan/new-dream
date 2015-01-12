@@ -20,9 +20,10 @@
 				<p class="new-dream-weixin">
 					<img src="images/code.png">
 					<i class="fa fa-weixin"></i>:<a href="javascript:void(0)">xinmengxiang</a>
+					<span>(wechat)</span>
 				</p>
-				<p><i class="fa fa-weibo"></i>:<a href="#">http://weibo.com/xinmengxiangdahui</a></p>
-				<p><i class="fa fa-envelope"></i>:<a href="#">xinmengxiang@qq.com</a></p>
+				<p><i class="fa fa-weibo"></i>:<a href="#">http://weibo.com/xinmengxiangdahui</a><span>(weibo)</span></p>
+				<p><i class="fa fa-envelope"></i>:<a href="#">xinmengxiang@qq.com</a><span>(E-mail)</span></p>
 			</div>
 		</div>
 		<div class="center-column">
