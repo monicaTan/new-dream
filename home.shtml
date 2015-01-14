@@ -50,7 +50,7 @@ $(document).ready(function(){
 		<div class="info-left-bar">
 			<img src="images/home.jpg">
 		</div>
-		<div class="info-right-bar">
+		<div class="info-right-bar right-bar-txt-home">
 			<div class="right-bar-txt">
 		        <p>
 		          “永远不要怀疑，那一小群有思想并且执着努力的公民能够改变这个世界。事实上，这个世界的历史一直都是这样向前发展的。”
