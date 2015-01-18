@@ -24,20 +24,9 @@ $(document).ready(function(){
 	<!-- header -->
 	<!--#include file="inc/header.shtml"-->
 
-	<!-- banner -->
-	<div class="banner clearfix">
-		<div class="flicker-example" data-block-text="false">
-			<ul>
-				<li data-background="images/home_top.jpg"></li>
-			</ul>
-		</div>
-		<div class="qr-code">
-			<img src="images/qr.png">
-		</div>
-	</div>
 	<!-- main-content -->
 	<div class="main-content clearfix">
-		<!-- <div class="banner clearfix">
+		<div class="banner clearfix">
 			<div class="flicker-example" data-block-text="false">
 				<ul>
 					<li data-background="images/home_top.jpg"></li>
@@ -46,7 +35,7 @@ $(document).ready(function(){
 			<div class="qr-code">
 				<img src="images/qr.png">
 			</div>
-		</div> -->
+		</div>
 		<div class="info-left-bar">
 			<img src="images/home.jpg">
 		</div>
@@ -95,12 +84,9 @@ $(document).ready(function(){
 </div>
 <script type="text/javascript">
 	$(function(){
-	    if (screen.width <= 989) {
 	      var flW = $(".flickerplate").width();
-	      //var flWF = Math.floor(flW*0.2435);
-	      var flWF = Math.floor(flW*0.1718);
+	      var flWF = Math.floor(flW*0.4818);
 	      $(".flickerplate").css({"height":flWF+"px"});
-	    };
 	})
 </script>
 </body>
