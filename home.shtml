@@ -30,6 +30,7 @@ $(document).ready(function(){
 			<div class="flicker-example" data-block-text="false">
 				<ul>
 					<li data-background="images/home_top.jpg"></li>
+					<li data-background="images/home_top2.jpg"></li>
 				</ul>
 			</div>
 			<div class="qr-code">
@@ -85,7 +86,7 @@ $(document).ready(function(){
 <script type="text/javascript">
 	$(function(){
 	      var flW = $(".flickerplate").width();
-	      var flWF = Math.floor(flW*0.4818);
+	      var flWF = Math.floor(flW*0.4434);
 	      $(".flickerplate").css({"height":flWF+"px"});
 	})
 </script>
